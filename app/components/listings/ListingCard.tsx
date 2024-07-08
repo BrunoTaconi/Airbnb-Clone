@@ -30,7 +30,7 @@ const ListingCard: React.FC<ListingCardProps> = ({
     const router = useRouter();
     const { getByValue } = useCountries();
 
-    const location = getByValue(data.locationValue);
+    const location = getByValue(data?.locationValue);
 
     const handleCancel = useCallback(
         (e: React.MouseEvent<HTMLButtonElement>) => {
@@ -49,8 +49,8 @@ const ListingCard: React.FC<ListingCardProps> = ({
             return reservation.totalPrice;
         }
 
-        return data.price;
-    }, [reservation, data.price]);
+        return data?.price;
+    }, [reservation, data?.price]);
 
     const reservationDate = useMemo(() => {
         if (!reservation) {
@@ -81,7 +81,7 @@ const ListingCard: React.FC<ListingCardProps> = ({
                     <Image 
                         fill
                         alt="Listing"
-                        src={data.imageSrc}
+                        src={data?.imageSrc}
                         className='
                             object-cover
                             h-full
@@ -92,7 +92,7 @@ const ListingCard: React.FC<ListingCardProps> = ({
                     />
                     <div className='absolute top-3 right-3'>
                         <HeartButton 
-                            listingId={data.id}
+                            listingId={data?.id}
                             currentUser={currentUser}
                         />
                     </div>
@@ -101,7 +101,7 @@ const ListingCard: React.FC<ListingCardProps> = ({
                     {location?.region}, {location?.label}
                 </div>
                 <div className='font-light text-neutral-500'>
-                    {reservationDate || data.category}
+                    {reservationDate || data?.category}
                 </div>
                 <div className='flex flex-row items-center gap-1'>
                     <div className='font-semibold'>

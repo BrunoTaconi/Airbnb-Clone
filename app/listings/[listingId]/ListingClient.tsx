@@ -3,7 +3,7 @@
 import React, { useCallback, useEffect, useMemo, useState } from 'react'
 
 import Container from '@/app/components/Container';
-import ListingHead from '@/app/components/listings/listingHead';
+import ListingHead from '@/app/components/listings/ListingHead';
 import { categories } from '@/app/components/navbar/Categories';
 import { SafeListing, SafeReservation, SafeUser } from '@/app/types';
 import ListingInfo from '@/app/components/listings/ListingInfo';
