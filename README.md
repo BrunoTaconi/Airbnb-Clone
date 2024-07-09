@@ -53,6 +53,7 @@ To run the project locally:
 npm run dev
 # or
 yarn dev
+```
 
 ## Deployment
 This project is deployed on Vercel. Make sure to configure your environment variables in the Vercel dashboard before deployment.
