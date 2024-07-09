@@ -1,5 +1,3 @@
-markdown
-
 # Airbnb Project
 
 This project is a clone of Airbnb built with Next.js, React, and MongoDB, featuring authentication with NextAuth.js and integrations with GitHub OAuth, Google OAuth, and Cloudinary.
@@ -27,13 +25,14 @@ cd airbnb-project
 
 3.Install Dependencies:
 
+```bash
 npm install
 or
 yarn install
 
-### Environment Setup
+## Environment Setup
 
-    This project requires setting up environment variables. Follow these steps:
+This project requires setting up environment variables. Follow these steps:
 
 1. Copy .env.example to .env in the root directory of the project:
 
@@ -42,18 +41,19 @@ cp .env.example .env
 
 2. Edit the .env file and add your specific configuration values for each variable.
 
-### Running Locally
-    To run the project locally:
+## Running Locally
+To run the project locally:
 
-    ```bash
-    npm run dev
-    or
-    yarn dev
+```bash
+npm run dev
+or
+yarn dev
 
-### Deployment
-    This project is deployed on Vercel. Make sure to configure your environment variables in the Vercel dashboard before deployment.
+## Deployment
+This project is deployed on Vercel. Make sure to configure your environment variables in the Vercel dashboard before deployment.
 
-### Technologies Used
+## Technologies Used
+
     Next.js
     React
     MongoDB (or your preferred database)
