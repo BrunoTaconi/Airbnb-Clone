@@ -45,7 +45,7 @@ This project requires setting up environment variables. Follow these steps:
 
 2. Edit the `.env` file and add your specific configuration values for each variable.
 
-### Running Locally
+## Running Locally
 
 To run the project locally:
 
@@ -54,19 +54,21 @@ npm run dev
 # or
 yarn dev
 
-Deployment
+## Deployment
 This project is deployed on Vercel. Make sure to configure your environment variables in the Vercel dashboard before deployment.
 
-Technologies Used
-Next.js
-React
-MongoDB (or your preferred database)
-NextAuth.js (for authentication)
-GitHub OAuth (for authentication)
-Google OAuth (for authentication)
-Cloudinary (for image management)
-Contributing
+## Technologies Used
+
+- Next.js
+- React
+- MongoDB (ou seu banco de dados preferido)
+- NextAuth.js (para autenticação)
+- GitHub OAuth (para autenticação)
+- Google OAuth (para autenticação)
+- Cloudinary (para gerenciamento de imagens)
+
+## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-License
+## License
 This project is licensed under the MIT License. See the LICENSE file for details.
