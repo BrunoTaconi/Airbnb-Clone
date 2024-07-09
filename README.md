@@ -17,20 +17,19 @@ To get a local copy up and running, follow these steps:
 
 1. Clone the repository:
 
-   ```bash
-    git clone https://github.com/your_username/your_repository.git
+```bash
+git clone https://github.com/your_username/your_repository.git
 
 2. Navigate to the project directory:
 
-    ```bash
-    cd airbnb-project
+```bash
+cd airbnb-project
 
 3.Install Dependencies:
 
-    ```bash
-    npm install
-    or
-    yarn install
+npm install
+or
+yarn install
 
 ### Environment Setup
 
@@ -38,8 +37,8 @@ To get a local copy up and running, follow these steps:
 
 1. Copy .env.example to .env in the root directory of the project:
 
-    ```bash
-    cp .env.example .env
+```bash
+cp .env.example .env
 
 2. Edit the .env file and add your specific configuration values for each variable.
 
@@ -68,7 +67,7 @@ To get a local copy up and running, follow these steps:
 ### License
     This project is licensed under the MIT License. See the LICENSE file for details.
 
-    ```vbnet
+
     ### Notes:
 
     - **Instructions Clarity:** Each section provides clear, step-by-step instructions for cloning, installing dependencies, setting up environment variables, running the project locally, and deploying it on Vercel.
