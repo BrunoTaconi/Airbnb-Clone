@@ -2,7 +2,7 @@
 
 This project is a clone of Airbnb built with Next.js, React, and MongoDB, featuring authentication with NextAuth.js and integrations with GitHub OAuth, Google OAuth, and Cloudinary.
 
-![Demo GIF]((https://imgur.com/a/aFSFWVO))
+![Demo GIF](https://imgur.com/a/aFSFWVO)
 
 ## Getting Started
 
